@@ -751,7 +751,7 @@ export default function Projects() {
                 {/* Column 4: Profile Image (full width of its column) */}
                 <div className="flex justify-center items-center">
                   <Image
-                    src="/profile.jpg"
+                    src="/profile.jpeg"
                     alt="Rishi Ganji"
                     className="w-full h-auto object-cover rounded-full"
                   />
