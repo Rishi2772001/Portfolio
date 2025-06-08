@@ -6,7 +6,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import styled from 'styled-components';
 import { motion, useScroll, useTransform } from 'framer-motion';
-
+import Image from 'next/image';
 gsap.registerPlugin(ScrollTrigger);
 
 /* ─────────────  SCOPED STYLES  ───────────── */
@@ -465,7 +465,7 @@ export default function Projects() {
             <h3 className="font-krona-one text-7xl relative text-[#f5f5f7] py-8">
               PROCHESS GAME
             </h3>
-            <img
+            <Image
               className="project-img"
               src="/prochess.jpeg"
               alt="Project One"
@@ -501,7 +501,7 @@ export default function Projects() {
             <h3 className="font-krona-one text-7xl relative text-[#f5f5f7] py-8">
               PREDICTION GAME
             </h3>
-            <img
+            <Image
               className="project-img"
               src="/dice.jpeg"
               alt="Project Two"
@@ -537,7 +537,7 @@ export default function Projects() {
             <h3 className="font-krona-one text-7xl relative text-[#f5f5f7] py-8">
               SECONDCHANCE MARKETPLACE
             </h3>
-            <img
+            <Image
               className="project-img"
               src="/secondChance2.jpeg"
               alt="Project Three"
@@ -573,7 +573,7 @@ export default function Projects() {
             <h3 className="font-krona-one text-7xl relative text-[#f5f5f7] py-8">
               RECIPE RECOMMENDATION
             </h3>
-            <img
+            <Image
               className="project-img"
               src="/recipe_recommendation.jpeg"
               alt="Project Four"
@@ -750,7 +750,7 @@ export default function Projects() {
 
                 {/* Column 4: Profile Image (full width of its column) */}
                 <div className="flex justify-center items-center">
-                  <img
+                  <Image
                     src="/profile.jpg"
                     alt="Rishi Ganji"
                     className="w-full h-auto object-cover rounded-full"
