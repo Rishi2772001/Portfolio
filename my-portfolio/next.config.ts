@@ -13,6 +13,8 @@ const nextConfig: NextConfig = {
     // enables the SWC transform that avoids class-name mismatches
     styledComponents: true,
   },
+  output: "export",
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
